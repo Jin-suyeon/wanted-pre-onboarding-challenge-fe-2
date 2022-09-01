@@ -1,0 +1,9 @@
+@import "../App";
+
+.CreateTodoModal_container {
+  @extend %modal-black-bg;
+}
+
+.CreateTodoModal_table {
+  @extend %modal-white-bg;
+}

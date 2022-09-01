@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+$font-black-color: rgb(70, 70, 70);
+$green-color: #2cb796;
+$background-color: #e6eaf2;
+$grey-color: grey;
+
+%modal-black-bg {
+  position: fixed;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(70, 70, 70);
+}
+
+%modal-white-bg {
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+button {
+  cursor: pointer;
+
+  &:active {
+    transform: scale(0.98);
+  }
+}
